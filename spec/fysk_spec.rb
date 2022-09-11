@@ -1,6 +1,6 @@
-RSpec.describe Yskl do
+RSpec.describe Fysk do
   it "has a version number" do
-    expect(Yskl::VERSION).not_to be nil
+    expect(Fysk::VERSION).not_to be nil
   end
 
   it "does something useful" do

@@ -1,6 +1,6 @@
-require "yskl/version"
+require "fysk/version"
 
-module Yskl
+module Fysk
   class Error < StandardError; end
   # Your code goes here...
 end
