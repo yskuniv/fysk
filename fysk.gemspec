@@ -1,10 +1,10 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "yskl/version"
+require "fysk/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "yskl"
-  spec.version       = Yskl::VERSION
+  spec.name          = "fysk"
+  spec.version       = Fysk::VERSION
   spec.authors       = ["ysk_univ"]
   spec.email         = ["ysk.univ.1007@gmail.com"]
 
