@@ -1,13 +1,12 @@
 //
-
-f:/x y/ x+y.
+f:/x y/ x + y.
 
 g://
-a:1, k:@f a
+a:1, k:f a
 x:0
-// x'@k x, x.
+// x'k x, x.
 .
 
-h:@g
-[@h, @h, @h]
+h:g
+[h, h, h]
 .
