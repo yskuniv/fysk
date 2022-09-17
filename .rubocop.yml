@@ -1,20 +1,27 @@
-Metrics/LineLength:
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+
+Gemspec/RequireMFA:
   Enabled: false
 
-Style/Documentation:
+Layout/LineLength:
   Enabled: false
 
-Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
-
-Style/HashSyntax:
+Metrics/AbcSize:
   Enabled: false
 
-Style/MutableConstant:
+Metrics/BlockLength:
   Enabled: false
 
-Style/RedundantPercentQ:
+Metrics/ClassLength:
   Enabled: false
 
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
+Metrics/MethodLength:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Style:
+  Enabled: false
