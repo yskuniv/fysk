@@ -1,27 +1,8 @@
 AllCops:
-  TargetRubyVersion: 2.7
-  NewCops: enable
+  TargetRubyVersion: 3.0
 
-Gemspec/RequireMFA:
-  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
 
-Layout/LineLength:
-  Enabled: false
-
-Metrics/AbcSize:
-  Enabled: false
-
-Metrics/BlockLength:
-  Enabled: false
-
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/MethodLength:
-  Enabled: false
-
-Naming/MethodParameterName:
-  Enabled: false
-
-Style:
-  Enabled: false
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
