@@ -1,6 +1,8 @@
 AllCops:
   TargetRubyVersion: 3.0
   NewCops: enable
+  Exclude:
+    - "lib/fysk/parser.rb"
 
 Gemspec/RequireMFA:
   Enabled: false
