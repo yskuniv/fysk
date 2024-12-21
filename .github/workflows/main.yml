@@ -47,11 +47,11 @@ jobs:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
     - name: Build gem
-      run: gem build imap_mogura.gemspec
+      run: gem build fysk.gemspec
 
     - name: Get tag name
       id: get_tag_name
       run: echo "::set-output name=TAG_NAME::${GITHUB_REF#refs/tags/}"
 
     - name: Publish gem
-      run: GEM_HOST_API_KEY=${{ secrets.API_KEY }} gem push imap_mogura-${{ steps.get_tag_name.outputs.TAG_NAME }}.gem
+      run: GEM_HOST_API_KEY=${{ secrets.API_KEY }} gem push fysk-${{ steps.get_tag_name.outputs.TAG_NAME }}.gem
