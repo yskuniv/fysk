@@ -14,6 +14,9 @@ Metrics:
 Style/Documentation:
   Enabled: false
 
+Style/EmptyCaseCondition:
+  Enabled: false
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
